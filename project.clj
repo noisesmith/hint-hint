@@ -1,7 +1,7 @@
 (defproject org.noisesmith/hint-hint "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :global-vars {*warn-on-reflection* true
-                *unchecked-math* :warn-on-reflection}
+                *unchecked-math* :warn-on-boxed}
   :url "https://github.com/noisesmith/hint-hint"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
